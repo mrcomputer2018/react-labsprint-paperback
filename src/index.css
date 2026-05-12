@@ -14,11 +14,13 @@
     background-size: cover;
     background-position: center;
 }
+
 .neon-glow {
     text-shadow:
         0 0 10px rgba(200, 249, 6, 0.5),
         0 0 20px rgba(200, 249, 6, 0.3);
 }
+
 .glass-panel {
     background: rgba(15, 17, 8, 0.7);
     backdrop-filter: blur(12px);
