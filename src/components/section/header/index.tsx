@@ -1,15 +1,13 @@
-import type { ReactNode } from "react"
+import type { ReactNode } from "react";
 
 interface HeaderProps {
-  children: ReactNode
+    children: ReactNode;
 }
 
-export function Header({children}: HeaderProps) {
-  return (
-    <header>
-        <div className="flex flex-row justify-between py-6">
-             {children}
-        </div>
-    </header>
-  )
+export function Header({ children }: HeaderProps) {
+    return (
+        <header>
+            <div className="flex flex-row justify-between py-6">{children}</div>
+        </header>
+    );
 }
