@@ -1,4 +1,4 @@
-export default function AuthContainer({
+export function AuthContainer({
     children,
 }: {
     children: React.ReactNode;

@@ -4,7 +4,7 @@ interface HeaderLogoProps {
     title: string;
 }
 
-export default function HeaderLogo({ source, alt, title }: HeaderLogoProps) {
+export function HeaderLogo({ source, alt, title }: HeaderLogoProps) {
   return (
     <div className="flex flex-row gap-2 items-center">
         <img src={source} alt={alt} />
